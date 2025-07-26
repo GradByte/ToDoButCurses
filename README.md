@@ -35,7 +35,7 @@
 
 ## 🔧 Improvements
 
-- 💾 **Persistence**: Save tasks between launches (e.g., Core Data or UserDefaults)
+- 💾 **Persistence**: Save tasks (e.g., Core Data or SwiftData)
 - 🔊 **Custom Notification Sounds**: Add retro or custom sounds for notifications
 - ⚙️ **Settings Screen**: Let users adjust curse intensity or notification frequency
 - ♿ **Accessibility**: Improve VoiceOver support and color contrast
