@@ -1,50 +1,50 @@
 # ToDoButCurses
 
-## Intro
+## 🚀 Intro
 
-**ToDoButCurses** is a meme motivational pixel-style todo app that keeps you on track by sending you relentless, curse-filled notifications every minute for any unfinished tasks. The app is designed to be both fun and brutally honest, using rough language and a retro pixel-art UI to push you to get things done.
+**ToDoButCurses** is a pixel-art inspired motivational todo app (meme app) that keeps you productive by sending relentless, curse-filled notifications every minute for any unfinished tasks. The app combines a retro pixel UI with brutally honest language to push you to get things done.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Swift**
-- **SwiftUI**
-- **MVVM Architecture**
-- **UserNotifications Framework**
-- **Xcode Asset Catalogs** (for icons and colors)
+- **Swift** & **SwiftUI** for UI and app logic
+- **MVVM Architecture** for clean separation of concerns
+- **UserNotifications Framework** for local notifications
+- **Xcode Asset Catalogs** for custom icons and colors
 
-## Features
+## ✨ Features
 
-- **Pixel-Style UI**: Custom-designed, retro-inspired interface with monospaced fonts, square borders, and bold color schemes.
-- **Task Management**: Add, complete, and delete tasks with a single tap.
-- **Two-Screen Simplicity**: Main screen for viewing/managing tasks, and a dedicated add-task screen.
-- **Brutal Motivation**: Every minute, receive a local notification for each unfinished task, each with a randomly chosen, rough curse message.
-- **10 Unique Curses**: Each notification features one of ten hand-crafted, explicit motivational curses.
-- **Animated Pixel Checkboxes**: Satisfying, animated toggling of task completion.
-- **Context Menu**: Long-press on a task to delete it.
-- **Custom App Icon**: Pixel-style app icon for a cohesive look.
-- **Dark Theme**: Black and red color palette for a bold, retro vibe.
-- **Responsive Layout**: Looks great on all iOS devices.
+- 🎮 **Pixel-Style UI**: Retro-inspired, monospaced fonts, square borders, and bold color palette
+- ✅ **Task Management**: Add, complete, and delete tasks with a tap
+- 📝 **Two-Screen Simplicity**: Main task list and a dedicated add-task screen
+- 🤬 **Brutal Motivation**: Receive a local notification every minute for each unfinished task, each with a randomly chosen, explicit curse
+- 🔟 **10 Unique Curses**: Hand-crafted, rough motivational messages
+- 🟩 **Animated Pixel Checkboxes**: Pixel-style toggling of task completion
+- 🗑️ **Context Menu**: Long-press to delete a task
+- 🖼️ **Custom App Icon**: Pixel-style icon for a cohesive look
+- 🌑 **Dark Theme**: Black and red color palette for a bold, retro vibe
+- 📱 **Responsive Layout**: Looks great on all iOS devices
 
-## Learnings
+## 📚 Learnings
 
-- **SwiftUI Customization**: Building custom UI components and layouts beyond default SwiftUI controls.
-- **MVVM Pattern**: Clean separation of business logic and UI using ObservableObject and ViewModel.
-- **Local Notifications**: Scheduling, customizing, and handling repeating notifications with UserNotifications.
-- **State Management**: Using @StateObject, @ObservedObject, and @Published for reactive UI updates.
-- **Asset Management**: Organizing and using custom icons and colors in Xcode asset catalogs.
-- **Accessibility & UX**: Creating a visually distinct, accessible, and fun user experience.
+- 🧩 **SwiftUI Customization**: Building custom UI components and layouts
+- 🏗️ **MVVM Pattern**: Using ObservableObject and ViewModel for state management
+- 🔔 **Local Notifications**: Scheduling and handling repeating notifications
+- ⚡ **Reactive State**: Using @StateObject, @ObservedObject, and @Published
+- 🎨 **Asset Management**: Organizing and using custom icons and colors
+- ♿ **UX & Accessibility**: Creating a visually distinct and engaging user experience
 
-## Improvements
+## 🔧 Improvements
 
-- **Persistence**: Add Core Data or SwiftData to save tasks.
-- **Custom Notification Sounds**: Use retro or custom sounds for notifications.
-- **Settings Screen**: Allow users to toggle curse intensity or notification frequency.
-- **Accessibility**: Improve VoiceOver support and color contrast for better accessibility.
-- **Testing**: Add unit/UI tests for ViewModel and UI flows.
-- **Localization**: Support for multiple languages (and curse styles!).
-- **Animations**: Add more pixel-style animations for transitions and interactions.
+- 💾 **Persistence**: Save tasks between launches (e.g., Core Data or UserDefaults)
+- 🔊 **Custom Notification Sounds**: Add retro or custom sounds for notifications
+- ⚙️ **Settings Screen**: Let users adjust curse intensity or notification frequency
+- ♿ **Accessibility**: Improve VoiceOver support and color contrast
+- 🧪 **Testing**: Add unit and UI tests for ViewModel and UI flows
+- 🌍 **Localization**: Support for multiple languages (and curse styles!)
+- 🕹️ **More Animations**: Add pixel-style transitions and effects
 
-## Visual
+## 🎥 Demo / 🖼️ Screenshot
 
-![Demo](demo.gif)
-<!-- Or add a YouTube link: https://youtu.be/your-demo-link --> 
+| ![Main Screen](https://github.com/GradByte/ToDoButCurses/blob/main/toDoCurses1.png) | ![Add Task Screen](https://github.com/GradByte/ToDoButCurses/blob/main/toDoCurses2.png) | ![Notification Example](https://github.com/GradByte/ToDoButCurses/blob/main/toDoCurses3.png) |
+| --- | --- | --- |
+| Main Screen | Add Task Screen | Notification Example |
